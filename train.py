@@ -28,4 +28,4 @@ filename = os.path.join('model','LRmodel.joblib')
 joblib.dump(model, filename)
 
 with open('metrics.txt', 'w') as fw:
-  fw.write('The mean error of current model is',mean_squared_error(y_test,y_pred))
+  fw.write('The mean error of current model is' + str(mean_squared_error(y_test,y_pred)))
