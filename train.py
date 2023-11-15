@@ -6,7 +6,7 @@ from sklearn.linear_model import LogisticRegression
 import numpy as np
 import os
 
-iris = load_iris()
+iris = load_iris() 
 X = iris.data
 y = iris.target
 
